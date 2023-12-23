@@ -21,7 +21,6 @@ a{
     font-family: 'Raleway', sans-serif;
     font-size: 26px;
 
-    
 }
 .header-list{
     list-style: none;
@@ -67,7 +66,7 @@ a{
     list-style: none;
 }
 .info-work{
-
+  
 }
 .submit{
     color: var(--main-color);
@@ -90,11 +89,13 @@ a{
     color: var(--main-color);
     font-family: 'Roboto', sans-serif;
     font-size: 36px;
+    text-align: center;
 }
 .team-caption{
     color: var(--main-color);
     font-family: 'Roboto', sans-serif;
     font-size: 36px;
+    text-align: center;
 }
 .name-people{
     color: var(--main-color);
@@ -111,6 +112,7 @@ a{
 }
 .images-people{
     width: 270px;
+    margin-right: 30px;
 }
 .footer-address{
     font-family: 'Roboto', sans-serif;
@@ -157,6 +159,21 @@ a{
     margin-top: 94px;
     margin-bottom: 50px;
 }
-
+.info-list {
+    display: flex;
+    flex-direction: row;
+}
+.team-image {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.team-items {
+    margin-right: 30px;
+}
+.images-people1{
+    display: flex;
+    justify-content: space-around;
+}
 
 
