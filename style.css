@@ -20,15 +20,19 @@ a{
     color: var(--team-last-color);
     font-family: 'Raleway', sans-serif;
     font-size: 26px;
-
+    margin-left: 215px;
 }
 .header-list{
     list-style: none;
+    display: flex;
+    align-items: flex-start;
 }
 .nav-mail{
     color: var(--accent-color);
     font-family: 'Roboto', sans-serif;
     font-size: 14px;
+    margin-left: 800px;
+    margin-right: 51px;
 }
 .nav-telephone{
     color: var(--second-color);
@@ -39,12 +43,14 @@ a{
     color: var(--main-color);
     font-family: 'Roboto', sans-serif;
     font-size: 14px;
+    margin-left: 51px;
 }
 .active{
     color: var(--accent-color);
     font-family: 'Roboto', sans-serif;
     font-size: 14px;
     line-height: 136%;
+    margin-left: 458px;
 }
 .title{
     font-family: 'Roboto', sans-serif;
@@ -175,5 +181,10 @@ a{
     display: flex;
     justify-content: space-around;
 }
+.flex-container {
+    display: flex;
+    align-items: flex-start;
+}
+
 
 
